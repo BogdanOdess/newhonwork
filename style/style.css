@@ -1,0 +1,30 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navi{
+    display: flex;
+    width: 1330px;
+    height: 80px;
+}
+
+.navi>h3{
+font-size: 170%;
+color: blue;
+margin-left: 5%;}
+
+.navi>h4{
+    font-size: 145%;
+}
+
+.navi>ul{
+    display: flex;
+    text-decoration: none;
+    font-style: normal;
+    list-style-type: none;
+}
+
+.navi>ul>li{
+
+}
