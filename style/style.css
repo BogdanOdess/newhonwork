@@ -5,8 +5,7 @@
 
 .navi{
     display: flex;
-    width: 1330px;
-    height: 80px;
+    background: #fff;
 }
 
 .navi>h3{
@@ -23,8 +22,49 @@ margin-left: 5%;}
     text-decoration: none;
     font-style: normal;
     list-style-type: none;
+    
 }
 
 .navi>ul>li{
+    margin: 5% 1% 1% 5%;
+}
 
+.navi>ul>li>a{
+    color: #212121;
+    size: 14px;
+}
+
+.con{
+    width: 1330px;
+    height: 250px;
+    background: #2F303A;
+}
+
+.con>h2{
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.con>button{
+    position: absolute;
+    top: 85%;
+    left: 48%;
+    width: 15%;
+    height: 15%;
+    border-radius: 5%;
+    border: #2196F3;
+    background: #2196F3;
+}
+
+.con>button>p{
+    color: #fff;
+    position: absolute;
+    top: 1%;
+    left: 15%;
+    font-size: 20px;
 }
