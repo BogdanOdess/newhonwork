@@ -46,16 +46,16 @@ margin-left: 5%;}
     font-style: normal;
     text-transform: uppercase;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 25%;
 }
 
 .con>button{
     position: absolute;
-    top: 85%;
+    top: 40%;
     left: 48%;
     width: 15%;
-    height: 15%;
+    height: 10%;
     border-radius: 5%;
     border: #2196F3;
     background: #2196F3;
@@ -64,7 +64,35 @@ margin-left: 5%;}
 .con>button>p{
     color: #fff;
     position: absolute;
-    top: 1%;
+    top: 0%;
     left: 15%;
     font-size: 20px;
 }
+
+.info{
+    width: 13350px;
+    height: auto;
+}
+
+.info>ul{
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+}    
+.info>ul>li{
+    text-decoration: none;
+}
+
+.info>ul>li>h3{
+    font-size: 16px;
+    color: #212121;
+}
+.info>ul>li>hr{
+    width: 90%;
+}
+
+.info>ul>li>p{
+ font-size: 14px;
+ color: #757575;
+}
+
