@@ -96,3 +96,36 @@ margin-left: 5%;}
  color: #757575;
 }
 
+.work{
+    width: 1330px;
+    height: auto;
+}
+
+.work>h1{
+margin-top: 15%;
+text-align: center;
+}
+
+.work>img{
+width: 25%;
+height: auto;
+border-radius: 5%;
+margin: 0% 5% 0% 3%;
+}
+.com{
+    width: 1350px;
+    height: auto;
+}
+.com>ul{
+
+}
+.com>ul>li{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.com>ul>li>img{
+    width: 20%;
+}
