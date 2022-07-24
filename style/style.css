@@ -147,10 +147,12 @@ margin: 0% 5% 0% 3%;
 
 .footer{
     width: 1335px;
+    height: 150px;
     background: #2F303A;
     position: absolute;
     top: 240%;
     display: flex;
+
 }
 .footer>h3{
     color: #2196F3;
@@ -163,6 +165,13 @@ margin: 0% 5% 0% 3%;
     margin: 2% 0% 0% 0%;
 }
 
+.footer>a{
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 15%;text-decoration: none;
+}
+
 .footer>ul>{
 
 }
@@ -170,8 +179,10 @@ margin: 0% 5% 0% 3%;
 .footer>ul>li{
     text-decoration: none;
     list-style-type: none;
+    margin-top: 30%;
+    margin-right: 50%;
 }
 
-.footer>ul>li>h3{
-    color: #fff;
+.footer>ul>li>a{
+    color: #FFFFFF99;
 }
