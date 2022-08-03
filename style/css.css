@@ -1,0 +1,45 @@
+
+
+.navi{
+    display: flex;
+    background: #fff;
+}
+
+.navi>h3{
+font-size: 170%;
+color: blue;
+margin-left: 5%;}
+
+.navi>h4{
+    font-size: 145%;
+}
+
+.navi>ul{
+    display: flex;
+    text-decoration: none;
+    font-style: normal;
+    list-style-type: none;
+}
+
+.navi>ul>li{
+    margin: 5% 1% 1% 5%;
+}
+
+.navi>ul>li>a{
+    color: #212121;
+    size: 14px;
+}
+
+.nav{
+    display: flex;
+}
+
+nav>ul{
+display: flex;
+}
+
+.nav>ul>li{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
