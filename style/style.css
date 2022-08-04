@@ -32,6 +32,10 @@ margin-left: 5%;}
 .navi>ul>li>a{
     color: #212121;
     size: 14px;
+    text-decoration: none;
+}
+.navi>ul>li>a:hover{
+    color: #2196F3;
 }
 
 .con{
@@ -169,7 +173,8 @@ margin: 0% 5% 0% 3%;
     color: #fff;
     position: absolute;
     top: 20%;
-    left: 15%;text-decoration: none;
+    left: 15%;
+    text-decoration: none;
 }
 
 .footer>ul>li{
@@ -181,4 +186,9 @@ margin: 0% 5% 0% 3%;
 
 .footer>ul>li>a{
     color: #FFFFFF99;
+    text-decoration: none;
+}
+
+.footer>ul>li>a:hover{
+    color: #2196F3;
 }
