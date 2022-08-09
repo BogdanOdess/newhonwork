@@ -98,25 +98,42 @@ margin-left: 5%;}
     font-size: 16px;
 }
 
-.footer{
+.footer1{
     background: #2F303A;
     height: 252px;
-    
-}
-
-.footer>h3{
-    color: #2196F3;
-    font-size: 145%;
-    margin-left: 5%;
     display: flex;
 }
 
-.footer>h4{
-    font-size: 145%;
+.footer1>h3{
+font-size: 180%;
+margin-left: 5%;
+color: #2196F3;
+}
+
+.footer1>h4{
+    font-size: 180%;
+    margin-top: 2%;
+    color: #fff;
+}
+
+.footer2{
+    margin-top: -13%;
+    margin-left: 3%;
+}
+
+.footer2>ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer2>ul>li{
     margin: 2% 0% 0% 0%;
-    display: flex;
 }
 
-footer>ul{
-    display: ;
+.footer2>ul>li>a{
+    color: #757575;
+    font-size: 95%;
+
 }
+
+
