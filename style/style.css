@@ -216,3 +216,8 @@ margin: 0% 5% 0% 3%;
     list-style: none;
     display: inline;
 }
+
+.footer2>ul>li>a>img{
+    border-radius: 5%;
+    margin: 5% % % 10%;
+}
